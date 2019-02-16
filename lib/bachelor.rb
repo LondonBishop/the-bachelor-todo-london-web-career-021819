@@ -6,7 +6,7 @@ winnerName = “”
 
   arrSeason.each do |element| 
 	  element.each do |key, value|
-		  if key == :status && value == “winner”
+		  if key == :status && value == "Winner"
 		    binding.pry 
 			  winnerName = :name
 		  end
