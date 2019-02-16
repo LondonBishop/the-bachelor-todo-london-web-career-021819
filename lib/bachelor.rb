@@ -10,6 +10,7 @@ winnerName = “”
 			  winnerName = :name
 		  end
 	  end
+	end
 	
     binding.pry  
   # code here
