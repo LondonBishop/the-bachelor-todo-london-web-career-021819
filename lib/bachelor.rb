@@ -2,7 +2,6 @@ require 'pry'
 
 def get_first_name_of_season_winner(data, season)
 seasonArray = data[season]
-winnerName = “”
 
   arrSeason.each do |element| 
 	  element.each do |key, value|
