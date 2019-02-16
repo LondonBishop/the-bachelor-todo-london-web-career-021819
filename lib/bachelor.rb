@@ -4,7 +4,10 @@ def get_first_name_of_season_winner(data, season)
 seasonArray = data[season]
 
   seasonArray.each do |element| 
-    element.include?("Winner")
+    if element.include?("Winner") 
+        binding.pry
+        element[:name]
+    end
 	end
 	
 	binding.pry
