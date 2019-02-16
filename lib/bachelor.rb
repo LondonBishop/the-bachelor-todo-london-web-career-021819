@@ -7,6 +7,7 @@ seasonArray = data[season]
 	  element.each do |key, value|
 	    binding.pry 
 		  if key == :status && value == "Winner"
+		    binding.pry
 			  winnerName = :name
 		  end
 	  end
