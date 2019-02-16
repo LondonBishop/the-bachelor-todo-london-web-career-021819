@@ -1,12 +1,17 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
+seasonArray = data[season]
+winnerName = “”
 
-  seasonArray = data[season]
-  seasonArray.each {|element| element=="winner"}
-  
-  
-  binding.pry  
+  arrSeason.each do |element| 
+	  element.each do |key, value|
+		  if key == :status && value == “winner”
+			  winnerName = :name
+		  end
+	  end
+	
+    binding.pry  
   # code here
 end
 
